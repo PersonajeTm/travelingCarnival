@@ -12,9 +12,11 @@ $("document").ready(function() {
   // FUNCTIONS
   function hideMobileDiv() {
     $("#mobileDiv").hide();
+    $("#all").show();
   }
   function showMobileDiv() {
     $("#mobileDiv").show();
+    $("#all").hide();
   }
   // START
   $(window).resize(function() {
