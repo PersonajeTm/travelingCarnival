@@ -1,5 +1,5 @@
 # Welcome to Personaje's
-![Traveling Carnival](images\Logo.png)
+![Traveling Carnival](https://i.imgur.com/2MgPvFr.png)
 ## We do hope you enjoy your visit.
 
 #### In this project you'll find pieces of art from a wide range of talented artists!
