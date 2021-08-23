@@ -1,7 +1,44 @@
 body {
   margin: 0;
-  /*background-color: blue;*/
 }
 #all {
   text-align: center;
+}
+.place {
+  position: fixed;
+}
+#ferrisWheel {
+  left: 5%;
+  top: 15%;
+}
+#dunkTank {
+  left: 25%;
+  top: 10%;
+}
+#photoBooth {
+  bottom: 10%;
+  left: 5%;
+}
+#entrance {
+  left: 33%;
+  bottom: 1%
+}
+#circus {
+  right: 5%;
+  bottom: 10%;
+}
+#games {
+  top: 40%;
+  left: 30%;
+}
+#booths {
+  top: 40%;
+  right: 20%;
+}
+#foodCourt {
+  top: 10%;
+  right: 20%;
+}
+.place:hover {
+  filter: drop-shadow(0px 0px 10px white);
 }
