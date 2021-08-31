@@ -3,6 +3,8 @@ $("document").ready(function() {
   // VARIABLES
   let sWidth = $(window).width();
   let sHeight = $(window).height();
+  $("#root").css("width", sWidth);
+  $("#root").css("height", sHeight);
   // IF STATEMENTS
   if (sHeight >= sWidth){
     showMobileDiv();
@@ -13,10 +15,12 @@ $("document").ready(function() {
   function hideMobileDiv() {
     $("#mobileDiv").hide();
     $("#all").show();
+    $("#root").show();
   }
   function showMobileDiv() {
     $("#mobileDiv").show();
     $("#all").hide();
+    $("#root").hide();
   }
   // START
   $(window).resize(function() {
@@ -32,5 +36,7 @@ $("document").ready(function() {
     if (sHeight < sWidth) {
       hideMobileDiv();
     }
+    $("#root").css("width", sWidth);
+    $("#root").css("height", sHeight);
   });
 });

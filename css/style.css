@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow: hidden;
 }
 #all {
   text-align: center;
@@ -8,36 +9,36 @@ body {
   position: fixed;
 }
 #ferrisWheel {
-  left: 5%;
-  top: 15%;
+  left: 15%;
+  top: 20%;
 }
 #dunkTank {
-  left: 25%;
-  top: 10%;
+  left: 31%;
+  top: 17%;
 }
 #photoBooth {
-  bottom: 10%;
-  left: 5%;
+  bottom: 23%;
+  left: 18%;
 }
 #entrance {
-  left: 33%;
-  bottom: 1%
+  left: 34%;
+  bottom: 14%
 }
 #circus {
-  right: 5%;
-  bottom: 10%;
+  right: 21%;
+  bottom: 16%;
 }
 #games {
   top: 40%;
-  left: 30%;
+  left: 37%;
 }
 #booths {
-  top: 40%;
-  right: 20%;
+  top: 37%;
+  right: 16%;
 }
 #foodCourt {
-  top: 10%;
-  right: 20%;
+  top: 19%;
+  right: 26%;
 }
 .place:hover {
   filter: drop-shadow(0px 0px 10px white);
