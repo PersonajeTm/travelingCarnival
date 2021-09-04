@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  background-repeat: repeat-x;
+  background-blend-mode: blur(20px);
+
+}
+#boothHolder {
+  overflow-y: hidden;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.booth {
+  max-width: 40%;
+}
