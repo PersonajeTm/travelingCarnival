@@ -1,8 +1,8 @@
 // game in games folder
 $("document").ready(function() {
   // VARIABLES
-  let sWidth = $(window).innerWidth();
-  let sHeight = $(window).innerHeight();
+  let sWidth = $(window).width();
+  let sHeight = $(window).height();
   $("#root").css("width", sWidth);
   $("#root").css("height", sHeight);
   // IF STATEMENTS
@@ -26,8 +26,8 @@ $("document").ready(function() {
   $(window).resize(function() {
     //resize just happened, pixels changed
     // UPDATE WINDOW SIZES
-    sWidth = $(window).innerWidth();
-    sHeight = $(window).innerHeight();
+    sWidth = $(window).width();
+    sHeight = $(window).height();
     // IF MOBILE
     if (sHeight >= sWidth){
       showMobileDiv();
@@ -38,5 +38,6 @@ $("document").ready(function() {
     }
     $("#root").css("width", sWidth);
     $("#root").css("height", sHeight);
+    // wonders
   });
 });

@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  overflow: hidden;
+
+  background-color: #42317A;
 }
 #all {
   text-align: center;
@@ -42,4 +43,8 @@ body {
 }
 .place:hover {
   filter: drop-shadow(0px 0px 10px white);
+}
+#root {
+  position: fixed;
+  overflow: hidden;
 }
