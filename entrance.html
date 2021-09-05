@@ -8,8 +8,8 @@
   <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="css/entrance.css">
 </head>
 
-<body>
-  <div id="pebsCorner" style="background-image: url('images/background.png')">
+<body><div id="all" style="background-image: url('images/background.png'); background-size: cover;">
+  <div id="pebsCorner">
     <div id="topHalf">
       <img id="pebbles" src="images/pebblesFloat.gif">
     </div>
@@ -18,12 +18,24 @@
     </div>
   </div>
   <div id="links">
-    <h1>Website</h1>
-    <h1>Carrd</h1>
-    <h1>Download the Zine PDF on our Gumroad!</h1>
-    <h1>4th Thing!</h1>
+    <div id="linkHolder">
+      <a href="https://personajetm.wixsite.com/personaje"><h1 class="link1">Website</h1></a>
+      <a href="https://personaje.carrd.co/"><h1 class="link2">Carrd</h1></a>
+      <a><h1 class="link3">Download the Zine PDF on our Gumroad!</h1></a>
+      <a href="index.html"><h1 class="link3">Back to the Carnival</h1></a>
+    </div>
   </div>
   <img id="standTop" src="images/topStand.png">
+  <div id="bubbleHolder">
+    <div id="floaterUp"></div>
+    <div id="chat">
+      <div id="spacer"></div>
+      <div id="bubble"><p>Welcome to the traveling carnival. I'm showrunner Pebbles! How may I assist you today?</p></div>
+      <img id="tail" src="images/tail.png">
+    </div>
+    <div id="floaterDown"></div>
+  </div>
+</div>
 </body>
 
 </html>
