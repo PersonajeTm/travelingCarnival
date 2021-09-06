@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 #narration {
-  width: 70%;
+  max-width: 70%;
   padding: 3%;
   color: white;
   background-color: black;
@@ -19,4 +19,9 @@ body {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
+
+}
+button {
+  margin: 1%;
 }
