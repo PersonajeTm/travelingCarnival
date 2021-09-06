@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferris Wheel</title>
+  <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="css/ferrisWheel.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <script>
+    let text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+    const box = "#narration"
+    $("document").ready(function() {
+      function type(text, target) {
+        // seperate into an array
+        let length = text.length;
+        let array = [];
+        let i = 0;
+        let x = 0;
+        while (i < (length)) {
+          array.push(text.charAt(i))
+          i++;
+        }
+        //append
+        array.forEach((item, x) => {
+          setTimeout(function() {
+            $(target).append(item);
+          }, (x * 10));
+        });
+        // FUNCTION END
+      }
+
+      type("HAHA SUCKERSSSSS", box);
+
+    });
+  </script>
+  <div id="holder">
+    <div id="narration"></div>
+  </div>
+</body>
+
+</html>
